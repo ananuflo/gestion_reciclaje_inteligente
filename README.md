@@ -22,4 +22,10 @@ Este proyecto consiste en el desarrollo de una aplicación Java conectada a una 
 - Git y GitHub
 
 ## Estructura del Proyecto
+/src
+ ├── model/           → Clases de datos (Usuario, Material, PuntoReciclaje, etc.)
+ ├── dao/             → Clases DAO para acceso a la base de datos
+ ├── controller/      → Lógica del sistema
+ ├── test/            → Pruebas unitarias (JUnit)
+ └── Main.java        → Punto de entrada del programa
 
